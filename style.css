@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: darkblue;
+}
+#headH{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+#stock-info{
+    display: flex;
+}
+.stock-list{
+    display: flex;
+    flex-direction: row;
+}
+#appendingBtn{
+    display: flex;
+    flex-direction: column;
+}
+.java-p-req{
+    font-size: larger;
+    height: 26px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.java-button-req{
+    background-color: white;
+    width: 44px;
+    height: 26px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 0px #b56a6a;
+
+}
+#stock-chart{
+    width: 70%;
+}
+#buttons{
+    margin-left:65px;
+    width: 45px;
+    display: flex;
+    /* margin-left: 10px; */
+    /* margin-top: 54px; */
+}
+#btn1d,#btn1mo,#btn1y,#btn5y{
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+#summary{
+    width:70%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+}
+#stock-list{
+  display: flex;
+}
+#para{
+    color: white;
+}
